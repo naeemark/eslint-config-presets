@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-astro",
-  "version": "1.0.8",
-  "description": "Astro JS ESLint config",
+  "name": "eslint-config-presets",
+  "version": "1.0.0",
+  "description": "JS ESLint config",
   "main": "index.js",
   "scripts": {
     "prelint": "editorconfig-tools check * rules/* test/*",
@@ -16,13 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/azanium/eslint-config-astro"
+    "url": "https://github.com/naeemark/eslint-config-presets"
   },
   "keywords": [
     "eslint",
     "eslintconfig",
     "config",
-    "astro",
     "javascript",
     "styleguide",
     "es2015",
@@ -30,7 +29,7 @@
     "es2017",
     "es2018"
   ],
-  "author": "Suhendra Ahmad (https://github.com/azanium)",
+  "author": "Naeem (https://github.com/naeemark)",
   "license": "MIT",
   "devDependencies": {
     "babel-preset-airbnb": "^2.5.1",

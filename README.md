@@ -1,4 +1,4 @@
-# Astro JavaScript Style Guide() {
+# JavaScript Style Guide() {
 
 *This style guide is derivation from eslint-config-airbnb-base*
 
@@ -6,13 +6,13 @@
 
 
   ```sh
-  npm info "eslint-config-astro@latest" peerDependencies
+  npm info "eslint-config-presets@latest" peerDependencies
   ```
 
   If using **npm 5+**, use this shortcut
 
   ```sh
-  npx install-peerdeps --dev eslint-config-astro
+  npx install-peerdeps --dev eslint-config-presets
   ```
 
   If using **npm < 5**, Linux/OSX users can run
@@ -27,23 +27,23 @@
   Which produces and runs a command like:
 
   ```sh
-    npm install --save-dev eslint-config-astro eslint@^#.#.# eslint-plugin-import@^#.#.#
+    npm install --save-dev eslint-config-presets eslint@^#.#.# eslint-plugin-import@^#.#.#
   ```
 
   If using **npm < 5**, Windows users can either install all the peer dependencies manually, or use the [install-peerdeps](https://github.com/nathanhleung/install-peerdeps) cli tool.
 
   ```sh
   npm install -g install-peerdeps
-  install-peerdeps --dev eslint-config-astro
+  install-peerdeps --dev eslint-config-presets
   ```
 
   The cli will produce and run a command like:
 
   ```sh
-  npm install --save-dev eslint-config-astro eslint@^#.#.# eslint-plugin-import@^#.#.#
+  npm install --save-dev eslint-config-presets eslint@^#.#.# eslint-plugin-import@^#.#.#
   ```
 
-2. Add `"extends": "astro"` to your .eslintrc.
+2. Add `"extends": "presets"` to your .eslintrc.
 
 
 ## Documentations
